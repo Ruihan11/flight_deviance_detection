@@ -1,21 +1,21 @@
 #!/usr/bin/env python3
 
 from src.data_processing          import load_and_split_data
-from src.models.random_forest     import train as train_rf
-from src.models.knn               import train as train_knn
-from src.models.svm               import train as train_svm
-from src.models.mlp               import train as train_mlp
-from src.models.isolation_forest  import train as train_iso
-from src.models.elliptic_envelope import train as train_ell
-from src.models.gradient_boost    import train as train_gb
-from src.models.xgboost           import train as train_xgb
-from src.models.catboost          import train as train_cb
-from src.models.lightgbm          import train as train_lgb
+from src.model.random_forest     import train as train_rf
+from src.model.knn               import train as train_knn
+from src.model.svm               import train as train_svm
+from src.model.mlp               import train as train_mlp
+from src.model.isolation_forest  import train as train_iso
+from src.model.elliptic_envelope import train as train_ell
+from src.model.gradient_boost    import train as train_gb
+from src.model.xgboost           import train as train_xgb
+from src.model.catboost          import train as train_cb
+from src.model.lightgbm          import train as train_lgb
 
-# GPU models
-from src.models_cuml.random_forest_cuda     import train as train_rf_cuda
-from src.models_cuml.knn_cuda               import train as train_knn_cuda
-from src.models_cuml.svc_cuda               import train as train_svc_cuda
+# GPU model
+from src.model_cuml.random_forest_cuda     import train as train_rf_cuda
+from src.model_cuml.knn_cuda               import train as train_knn_cuda
+from src.model_cuml.svc_cuda               import train as train_svc_cuda
 
 
 def main():
