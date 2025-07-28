@@ -28,10 +28,9 @@ uv venv
 source .venv/bin/activate  
 uv sync
 ```
-### dataset
-
-
-
+### 2.5 some modification before test run
+Be ware that the training data comes from [data-processing](https://github.com/Ruihan11/flight_data_processing.git)
+- plane_features_reduced.csv
 
 ### 3. Run
 ```bash
