@@ -1,6 +1,5 @@
 .venv/
 catboost_info/
-data/
 models/
 __pycache__/
 outputs/
