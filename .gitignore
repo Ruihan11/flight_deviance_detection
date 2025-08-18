@@ -2,4 +2,5 @@
 catboost_info/
 models/
 __pycache__/
-outputs/
+results/
+training.log

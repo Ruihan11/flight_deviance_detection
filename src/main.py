@@ -40,8 +40,8 @@ def main():
     # train_lgb(X_train, X_test, y_train, y_test)
 
     train_rf_cuda(X_train, X_test, y_train, y_test)
-    train_knn_cuda(X_train, X_test, y_train, y_test)
-    train_svc_cuda(X_train, X_test, y_train, y_test)
+    # train_knn_cuda(X_train, X_test, y_train, y_test)
+    # train_svc_cuda(X_train, X_test, y_train, y_test)
 
 if __name__ == "__main__":
     main()
